@@ -13,6 +13,8 @@ class App < Sinatra::Base
     @team = Team.new
     @team.name = params[:team][:name]
     @team.name = params[:team][:motto]
+
+    
     erb :team
   end
 
