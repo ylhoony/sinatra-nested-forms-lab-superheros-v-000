@@ -1,2 +1,11 @@
 <h1><%= @team.name %></h1>
 <h2><%= @team.motto %></h2>
+
+<ul>
+<% @super_heroes.each do |superhero| %>
+  
+  <li><%= superhero.name %></li>
+  <li><%= superhero.name %></li>
+  <li><%= superhero.name %></li>
+<% end %>
+</ul>
