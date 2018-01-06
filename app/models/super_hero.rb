@@ -15,5 +15,4 @@ class SuperHero
     @@super_heroes << self
   end
 
-    
 end
