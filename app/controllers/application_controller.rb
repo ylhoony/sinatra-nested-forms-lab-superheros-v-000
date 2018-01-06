@@ -14,7 +14,6 @@ class App < Sinatra::Base
     @team.name = params[:team][:name]
     @team.name = params[:team][:motto]
 
-    
     erb :team
   end
 
