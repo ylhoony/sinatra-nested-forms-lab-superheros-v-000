@@ -20,6 +20,8 @@ class App < Sinatra::Base
       new_superhero.power = superhero[:power]
       new_superhero.bio = superhero[:bio]
     end
+    @super_heroes = SuperHero.all
+    
     erb :team
   end
 
