@@ -5,8 +5,8 @@
 <h2>Super Heroes</h2>
 <ul>
 <% @super_heroes.each do |superhero| %>
-  <li><%= superhero.name %></li>
-  <li><%= superhero.power %></li>
-  <li><%= superhero.bio %></li>
+  <li>Hero Name: <%= superhero.name %></li>
+  <li>Hero Power: <%= superhero.power %></li>
+  <li>Hero Bio: <%= superhero.bio %></li>
 <% end %>
 </ul>
